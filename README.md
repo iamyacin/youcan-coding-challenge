@@ -5,9 +5,9 @@ We would like to get benefits of its in-memory storage stick table technology to
 We would like to introduce haproxy in top level or our web architecture.
 
 ### Prerequisites :
-[Gide to install Docker](https://docs.docker.com/engine/install/).
+[Guide to install Docker](https://docs.docker.com/engine/install/).
 
-[Gide to install Ansible](https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html).
+[Guide to install Ansible](https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html).
 
 ### How to use this Repo :
 1. Clone this Repo
