@@ -4,9 +4,9 @@ Haproxy provides a high, fast and efficient availability load balacing and proxy
 We would like to get benefits of its in-memory storage stick table technology to secure our platform by tracking our users activities including malicious ones. 
 We would like to introduce haproxy in top level or our web architecture.
 
-### Expected solution
-Using ansible and docker-compose, pop up 3 containers distributed as following:
+### Prerequisites :
+Docker ==> Gide to install it https://docs.docker.com/engine/install/
+Ansible ==> Gide to install it https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html
 
-1. One Haproxy container that holds your haproxy config.
-2. One nginx container  that holds your vhosts to redirect requests to the php container.
-3. One php container that serves your sample.
+### How to use this Repo :
+1. Clone this Repo
