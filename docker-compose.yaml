@@ -1,0 +1,22 @@
+version: "3.9"  # optional since v1.27.0
+services:
+  php-app:
+    build: ./php-application
+    ports:
+      - "1000:80"
+    links:
+      - nginx
+  nginx:
+    image: nginx
+    ports:
+      - "8080:8080"
+    volumes:
+      - "./nginx/nginx.conf:/etc/nginx/nginx.conf:ro"
+    links:
+      - "haproxy"
+  haproxy:
+    image: haproxy
+    ports: 
+      - "80:80"
+    volumes:
+      - "./haproxy:/usr/local/etc/haproxy:ro"
